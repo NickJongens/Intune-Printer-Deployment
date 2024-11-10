@@ -63,10 +63,27 @@ The script accepts the following parameters:
      cmd.exe
      "C:\Users\<Username>\Downloads\IntuneWinAppUtil.exe"
    	 ```
+     
   4. Select the source folder e.g.
      ```
      C:\IntunePrinterDeployment
      ```
+     
+  5. Set the 'Setup File' to:
+     ```
+     Install.ps1
+     ``` 
+
+  7. Set the output folder - easily press up twice, then add '\Output' to the source folder path:
+     ```
+     C:\IntunePrinterDeployment\Output
+     ```
+     
+  8. For the catalogue - specify 'N'
+
+  9. Create the Output folder - specify 'Y'
+
+You now have an .IntuneWin file you can upload to Intune.
      
 
 ## Usage
