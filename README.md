@@ -14,7 +14,7 @@ This Intune Printer Installation Script is a PowerShell-based solution designed 
 
 - Ensure that you have administrative rights to run this script, or are running in the System Context.
 - Place the required printer drivers in a `Driver` folder file containing the .inf, .cat files within a `.zip`. The install script unzips the Driver folder.
-- There are some drivers already provided (e.g., `Brother_HL_L2350DW.zip`) with the correct structure - please follow these.
+- There are some drivers already provided (e.g., `Brother_HL_L2350DW.zip`) with the correct structure - please follow the formatting/structure of these files. Drivers are zipped to save space.
 - If using a configuration file, prepare the `config.dat` file with the required printer settings using `printui.exe`
 
 ## Parameters
