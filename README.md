@@ -4,9 +4,10 @@ This PowerShell script installs a printer with specified configurations, includi
 
 ## Prerequisites
 
-- Ensure that you have administrative rights to run this script.
-- Place the required printer driver files (e.g., `Brother_HL_L2350DW.zip` and the specific `.INF` file) in the same directory as the script, or specify the correct paths to these files.
-- If using a configuration file, prepare the `config.dat` file with the required printer settings using `printui.exe`.
+- Ensure that you have administrative rights to run this script, or are running in the System Context.
+- Place the required printer drivers in a `Driver` folder file containing the .inf, .cat files within a `.zip`. The install script unzips the Driver folder.
+- There are some drivers already provided (e.g., `Brother_HL_L2350DW.zip`) with the correct structure - please follow these.
+- If using a configuration file, prepare the `config.dat` file with the required printer settings using `printui.exe`
 
 ## Parameters
 
