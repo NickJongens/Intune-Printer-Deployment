@@ -60,7 +60,6 @@ The script detects whether the printer is successfully installed by checking if 
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print\Printers\
 
 Key: Upstairs Printer
-
 ```
 
 ## Uninstallation
