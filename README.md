@@ -41,6 +41,26 @@ The script accepts the following parameters:
 - **`-ConfigFilePath`** (String, Optional)  
   Path to the printer configuration file (e.g., `config.dat`). If specified, the script will apply this configuration using `printui.exe`.
 
+## Packaging
+
+  1. Download the Microsoft Win32 Content Prep Tool
+     Download the Microsoft Win32 Content Prep Tool from this GitHub page.
+
+  2. Extract the Tool
+     Extract the downloaded .zip file to a directory on your machine.
+     Inside, you will find the IntuneWinAppUtil.exe executable file.
+     
+  4. Prepare the Files
+     Place the script (e.g., Install.ps1) and any supporting files (e.g., printer drivers, configuration files) into a single folder.
+
+     For example, your folder might look like this:
+
+     C:\MyPrinterApp
+     ├── Install.ps1
+     ├── Unnstall.ps1 
+     ├── config.dat
+     └── Brother_HL_L2350DW.zip
+
 ## Usage
 
 Run the script using PowerShell with the required parameters. Ensure to add as a System context app.
