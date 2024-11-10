@@ -16,27 +16,27 @@ The script accepts the following parameters:
 
 - **`-PrinterPortIPAddress`** (String)  
   IP address of the printer to be installed.  
-  _Default_: `"10.195.100.200"`
+  _Example_: `"10.195.100.200"`
 
 - **`-PrinterPortName`** (String)  
   Name of the printer port to be created.  
-  _Default_: `"Intune Deployed - Company - 10.195.100.200"`
+  _Example_: `"Intune Deployed - Company - 10.195.100.200"`
 
 - **`-PrinterName`** (String)  
   Name of the printer to be installed.  
-  _Default_: `"Upstairs Printer"`
+  _Example_: `"Upstairs Printer"`
 
 - **`-PrinterDriverModelName`** (String)  
   Model name of the printer driver.  
-  _Default_: `"Brother HL-L2350DW series"`
+  _Example_: `"Brother HL-L2350DW series"`
 
 - **`-PrinterDriverZipFileName`** (String)  
   Name of the ZIP file containing the printer driver.  
-  _Default_: `"Brother_HL_L2350DW.zip"`
+  _Example_: `"Brother_HL_L2350DW.zip"`
 
 - **`-PrinterDriverModelFileName`** (String)  
   Model file (usually a `.INF` file) for the printer driver.  
-  _Default_: `"BROHL17A.INF"`
+  _Example_: `"BROHL17A.INF"`
 
 - **`-ConfigFilePath`** (String, Optional)  
   Path to the printer configuration file (e.g., `config.dat`). If specified, the script will apply this configuration using `printui.exe`.
