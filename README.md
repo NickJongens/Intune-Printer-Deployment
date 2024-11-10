@@ -41,6 +41,14 @@ The script accepts the following parameters:
 - **`-ConfigFilePath`** (String, Optional)  
   Path to the printer configuration file (e.g., `config.dat`). If specified, the script will apply this configuration using `printui.exe`.
 
+## Config File Creation
+
+You can export a printer config using the following command:
+```
+rundll32 printui.dll,PrintUIEntry /Ss /n "Upstairs Printer" /a "config.dat"
+```
+This should be placed in the root of the main folder you're packaging the script in.
+
 ## Packaging
 
   1. Download the Microsoft Win32 Content Prep Tool into a place you can access using CMD, PowerShell or Terminal.
@@ -93,7 +101,6 @@ The script accepts the following parameters:
 
 You now have an .IntuneWin file you can upload to Intune.
      
-
 ## Usage
 
 Run the script using PowerShell with the required parameters. Ensure to add as a System context app.
