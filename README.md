@@ -54,9 +54,16 @@ The script accepts the following parameters:
      C:\IntunePrinterDeployment
      ├── Install.ps1
      ├── Unnstall.ps1 
-     ├── config.dat
-     └── Brother_HL_L2350DW.zip
+     ├── config.dat # this is not required
+     └── Brother_HL_L2350DW.zip # Driver files
 
+     Your 'Brother_HL_L2350DW.zip' could look like this:
+     ── Brother_HL_L2350DW.zip
+        └──Driver
+          └── x64
+          └── x86  
+          └──BROHL17A.INF
+     
   3. Run the IntuneWinAppUtil.exe from your favourite shell e.g.
      ```
      cmd.exe
