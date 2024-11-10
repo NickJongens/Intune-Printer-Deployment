@@ -79,9 +79,9 @@ The script accepts the following parameters:
      C:\IntunePrinterDeployment\Output
      ```
      
-  8. For the catalogue - specify 'N'
+  8. Create the Output folder - specify 'Y'
 
-  9. Create the Output folder - specify 'Y'
+  9. For the catalogue - specify 'N'
 
 You now have an .IntuneWin file you can upload to Intune.
      
