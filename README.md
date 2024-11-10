@@ -58,9 +58,11 @@ powershell.exe -ExecutionPolicy Bypass -File Install.ps1 **-PrinterPortIPAddress
 The script detects whether the printer is successfully installed by checking if the Windows registry key for the printer name exists: (If Exists)
 
 ```
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print\Printers\
-
-Key: Upstairs Printer
+Registry
+Key Path: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print\Printers\<PrinterName> (Replace with your printer's name)
+Detection method: String
+Operator: Equals
+Value: <PrinterName> (Replace with your printer's name)
 ```
 
 ## Uninstallation
