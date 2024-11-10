@@ -115,7 +115,7 @@ powershell.exe -ExecutionPolicy Bypass -File Install.ps1 **-PrinterPortIPAddress
 
 ## Detection
 
-The script detects whether the printer is successfully installed by checking if the Windows registry key for the printer name exists: (If Exists)
+The script detects whether the printer is successfully installed by checking if the Windows registry key for the printer name exists: (String Comparison/Equals)
 
 ```
 Registry
