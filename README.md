@@ -57,13 +57,15 @@ The script accepts the following parameters:
      ├── config.dat # this is not required
      └── Brother_HL_L2350DW.zip # Driver files
 
-     Your 'Brother_HL_L2350DW.zip' could look like this:
+     Your 'Brother_HL_L2350DW.zip' could look like this (but doesn't have to be exact):
      ── Brother_HL_L2350DW.zip
         └──Driver
           └── x64
           └── x86  
           └──BROHL17A.INF
-     
+          └──BROHL17A.cat
+          └──dpinstx64.exe
+     ```
   3. Run the IntuneWinAppUtil.exe from your favourite shell e.g.
      ```
      cmd.exe
