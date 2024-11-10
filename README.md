@@ -81,9 +81,8 @@ This should be placed in the root of the main folder you're packaging the script
           └──BROHL17A.cat
           └──dpinstx64.exe
      ```
-  3. Run the IntuneWinAppUtil.exe from your favourite shell e.g.
+  3. Run the IntuneWinAppUtil.exe from your favourite shell e.g. powershell:
      ```
-     cmd.exe
      "C:\Users\<Username>\Downloads\IntuneWinAppUtil.exe"
    	 ```
      
