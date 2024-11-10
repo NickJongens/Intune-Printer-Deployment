@@ -3,17 +3,17 @@
 param
 (
     [Parameter()]
-    [String] $PrinterPortIPAddress = "IP Address",
+    [String] $PrinterPortIPAddress = $null, # Printer Port IP Address
     [Parameter()]
-    [String] $PrinterPortName = "Intune Deployed - Company - IP Address",
+    [String] $PrinterPortName = $null, # Printer Port Name
     [Parameter()]
-    [String] $PrinterName = "Printer Name",
+    [String] $PrinterName = $null, # Name in Control Panel
     [Parameter()]
-    [String] $PrinterDriverModelName = "Brother HL-L2350DW series",
+    [String] $PrinterDriverModelName = $null, # Installed Driver Model used in 'have disk' prompt.
     [Parameter()]
-    [String] $PrinterDriverZipFileName = "Brother_HL_L2350DW.zip",
+    [String] $PrinterDriverZipFileName = $null, # Driver ZIP file.
     [Parameter()]
-    [String] $PrinterDriverModelFileName = "BROHL17A.INF", # Driver file used in 'have disk' prompt.
+    [String] $PrinterDriverModelFileName = $null, # Driver file used in 'have disk' prompt.
     [Parameter()]
     [String] $ConfigFilePath = $null  # parameter for config.dat file.
 )
