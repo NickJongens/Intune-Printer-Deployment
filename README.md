@@ -120,9 +120,21 @@ The script detects whether the printer is successfully installed by checking if 
 ```
 Registry
 Key Path: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print\Printers\<PrinterName> (Replace with your printer's name)
+Value name: Name
 Detection method: String
 Operator: Equals
 Value: <PrinterName> (Replace with your printer's name)
+
+OR If you want to change the port/ip being used:
+
+Registry
+Path: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print\Printers\<PrinterName> (Replace with your printer's name)
+Value name: Port
+Detection method: String
+Operator: Equals
+Value: <PrinterPortName> (Replace with your printer's Port name e.g. 'Intune Deployed - Company - 10.195.100.201' if you want to change the IP)
+Don't forget to update your install command.
+
 ```
 
 ## Uninstallation
