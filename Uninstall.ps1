@@ -2,9 +2,9 @@
 param
 (
     [Parameter()]
-    [String] $PrinterName = "Upstairs Printer",
+    [String] $PrinterName = $null,
     [Parameter()]
-    [String] $PrinterPortName = "Intune Deployed - Company - 10.195.100.200"
+    [String] $PrinterPortName = $null
 )
 [bool] $ExitWithError = $true
 [bool] $ExitWithNoError = $false
