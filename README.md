@@ -1,6 +1,7 @@
-# Printer Installation Script
+# Intune Printer Installation Script
 
-This PowerShell script installs a printer with specified configurations, including setting up a printer port, driver, and optionally applying a configuration file for additional settings.
+This PowerShell script installs a printer with specified configurations. 
+Where other scripts deploy the printer, this script is more complete and also allows for uninstallation and optionally applying a configuration file for additional settings.
 
 ## Prerequisites
 
