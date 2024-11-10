@@ -46,8 +46,7 @@ The script accepts the following parameters:
   1. Download the Microsoft Win32 Content Prep Tool into a place you can access using CMD, PowerShell or Terminal.
      https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool
      
-  2. Prepare the Files
-     Place the script (e.g., Install.ps1) and any supporting files (e.g., printer drivers, configuration files) into a single folder. e.g. C:\IntunePrinterDeployment
+  2. Place the script (e.g., Install.ps1) and any supporting files (e.g., printer drivers, configuration files) into a single folder. e.g. C:\IntunePrinterDeployment
 
      For example, your folder might look like this:
 
