@@ -1,7 +1,14 @@
 # Intune Printer Installation Script
 
-This PowerShell script installs a printer with specified configurations. 
-Where other scripts deploy the printer, this script is more complete and also allows for uninstallation and optionally applying a configuration file for additional settings.
+This Intune Printer Installation Script is a PowerShell-based solution designed for automated deployment of network printers via Microsoft Intune. It enables IT administrators to configure printers on user devices remotely, ensuring consistent setup and reducing manual intervention. The script supports configuration file-based customization and handles both installation and uninstallation.
+
+- **Automated Printer Installation**: Easily deploy printers with customizable parameters, such as IP address, port name, driver model, and printer name.
+- **Driver Deployment**: Supports zipped driver packages with `.inf`, `.cat`, and supporting files for easy installation across different architectures (x64/x86).
+- **Configuration File Support**: Optionally use a configuration file (`config.dat`) to set up specific printer settings with `printui.exe`.
+- **Registry-Based Detection**: Detects successful installation by checking for registry keys, allowing Intune to validate printer presence and configuration, while also allowing updates to IP Addresses.
+- **Easy Uninstallation**: Script removes printers and printer ports, along with related registry keys, for complete cleanup.
+- **Logging**: Provides logging capabilities to track the script’s actions and any issues during installation or uninstallation.
+
 
 ## Prerequisites
 
