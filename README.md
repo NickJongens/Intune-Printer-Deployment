@@ -66,9 +66,7 @@ Key: Upstairs Printer
 
 To uninstall the printer and printer port, run the script with the following parameters:
 
-```powershell
 powershell.exe -ExecutionPolicy Bypass -File Uninstall.ps1 **-PrinterName** "Upstairs Printer" **-PrinterPortName** "Intune Deployed - Company - 10.195.100.200"
-
 
 ## Notes
 
