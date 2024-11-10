@@ -43,23 +43,31 @@ The script accepts the following parameters:
 
 ## Packaging
 
-  1. Download the Microsoft Win32 Content Prep Tool
-     Download the Microsoft Win32 Content Prep Tool from this GitHub page.
-
-  2. Extract the Tool
-     Extract the downloaded .zip file to a directory on your machine.
-     Inside, you will find the IntuneWinAppUtil.exe executable file.
+  1. Download the Microsoft Win32 Content Prep Tool into a place you can access using CMD, PowerShell or Terminal.
+     https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool
      
-  4. Prepare the Files
-     Place the script (e.g., Install.ps1) and any supporting files (e.g., printer drivers, configuration files) into a single folder.
+  2. Prepare the Files
+     Place the script (e.g., Install.ps1) and any supporting files (e.g., printer drivers, configuration files) into a single folder. e.g. C:\IntunePrinterDeployment
 
      For example, your folder might look like this:
 
-     C:\MyPrinterApp
+     ```
+     C:\IntunePrinterDeployment
      ├── Install.ps1
      ├── Unnstall.ps1 
      ├── config.dat
      └── Brother_HL_L2350DW.zip
+
+  3. Run the IntuneWinAppUtil.exe from your favourite shell e.g.
+     ```
+     cmd.exe
+     "C:\Users\<Username>\Downloads\IntuneWinAppUtil.exe"
+   	 ```
+  4. Select the source folder e.g.
+     ```
+     C:\IntunePrinterDeployment
+     ```
+     
 
 ## Usage
 
